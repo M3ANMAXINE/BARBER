@@ -1,1 +1,18 @@
-Crea el archivo layout 
+@import "../abstracts/mixin";
+
+
+nav{
+    background-color:#121619;
+    a{
+        text-align: right;     
+    }
+    div{
+        a{
+            color: white;
+         }
+        } 
+    };
+
+   #img_b{
+    @include img_back;
+       }

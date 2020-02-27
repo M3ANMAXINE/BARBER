@@ -1,0 +1,39 @@
+nav {
+  background-color: #121619;
+}
+nav a {
+  text-align: right;
+}
+nav div a {
+  color: white;
+}
+
+#img_b {
+  background-image: url("../../assets/images/post-image.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  color: #ffff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  padding-top: 13rem;
+  margin: 0 auto;
+  display: block;
+  font-size: 3.5rem;
+  width: 500px;
+}
+@media (max-width: 600px) {
+  h1 {
+    width: 300px;
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
