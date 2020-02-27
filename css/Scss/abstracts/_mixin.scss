@@ -1,1 +1,12 @@
-Crea el archivo functions  _mixin.scss _variables.scss
+
+ @mixin img_back {
+    background-image: url("../../assets/images/post-image.jpg");
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    }
+
+
+ 

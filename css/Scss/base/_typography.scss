@@ -1,1 +1,27 @@
-Crea el archivo functions  _mixin.scss _variables.scss
+@import "../abstracts/variables";
+
+
+
+
+h1{
+
+    font-family: $playfair;
+    color: $color_h1;
+    text-align: center;
+    font-style: italic;
+    font-weight:900 ;
+    padding-top:13rem;
+    margin: 0 auto;
+    display: block;
+    font-size: 3.5rem;
+    width: 500px;
+    @media (max-width:600px) {
+        width: 300px;
+        font-size: 2.5rem;        
+          
+
+    }
+
+}     
+        
+
