@@ -1,3 +1,4 @@
+@import "../abstracts/variables";
 
  @mixin img_back {
     background-image: url("../../assets/images/post-image.jpg");
@@ -8,5 +9,13 @@
     background-position: center;
     }
 
+@mixin foot{
+background-color: $color_primario;
+}
 
- 
+         
+ @mixin cont($propiedad,$valor) { 
+   .container{
+      #{$propiedad}: $valor;
+      }
+};

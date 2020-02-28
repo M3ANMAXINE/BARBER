@@ -1,18 +1,24 @@
 @import "../abstracts/mixin";
 
 
-nav{
+#nav{
     background-color:#121619;
     a{
-        text-align: right;     
+      text-align: right;     
     }
-    div{
-        a{
-            color: white;
-         }
-        } 
-    };
+    div{ a{
+         color: white;
+        } } };
 
    #img_b{
     @include img_back;
        }
+
+    #footer{
+        @include foot;
+        padding-top:2rem;
+        padding-bottom:2rem;
+        text-align: center;
+    }
+
+    

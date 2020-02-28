@@ -1,10 +1,10 @@
-nav {
+#nav {
   background-color: #121619;
 }
-nav a {
+#nav a {
   text-align: right;
 }
-nav div a {
+#nav div a {
   color: white;
 }
 
@@ -15,6 +15,13 @@ nav div a {
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
+}
+
+#footer {
+  background-color: #121619;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 h1 {
@@ -34,6 +41,40 @@ h1 {
     width: 300px;
     font-size: 2.5rem;
   }
+}
+
+h3 {
+  font-family: "Roboto";
+}
+
+#nav {
+  background-color: #121619;
+}
+#nav a {
+  text-align: right;
+}
+#nav div a {
+  color: white;
+}
+
+#img_b {
+  background-image: url("../../assets/images/post-image.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+}
+
+#footer {
+  background-color: #121619;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+article .container {
+  color: #D1D1D1;
 }
 
 /*# sourceMappingURL=estilos.css.map */
