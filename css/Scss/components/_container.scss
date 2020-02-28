@@ -1,0 +1,6 @@
+@import "../abstracts/mixin";
+
+
+article{ 
+    @include cont(color, $color_secundario);
+}
