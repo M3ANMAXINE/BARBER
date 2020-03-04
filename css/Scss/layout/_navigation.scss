@@ -3,6 +3,7 @@
 
 #nav{
     background-color:#121619;
+    
     a{
       text-align: right;     
     }
@@ -21,4 +22,40 @@
         text-align: center;
     }
 
-    
+    #ico{
+     position: absolute;
+     bottom: 0;
+      font-size: 60px;
+      color: white;
+    }
+  
+  
+    #prev{
+      border-top-left-radius: 90px;
+      border-bottom-left-radius: 90px;
+    }
+
+    #next{
+      border-top-right-radius: 90px;
+      border-bottom-right-radius: 90px;   
+    }
+
+    #pagination{
+          background-color: $color_secundario;
+          padding-top: 2rem;
+          padding-bottom: 1rem;
+    }
+
+    #pelos{
+padding-top: 3rem;
+padding-bottom: 5rem;
+  }
+
+
+  #pag{
+    background-color: gray;
+    border-color: gray;
+  }
+
+ 
+

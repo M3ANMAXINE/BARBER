@@ -10,11 +10,12 @@
 
 #img_b {
   background-image: url("../../assets/images/post-image.jpg");
-  height: 100vh;
+  height: calc(100vh - 79px);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
+  position: relative;
 }
 
 #footer {
@@ -22,6 +23,39 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+}
+
+#ico {
+  position: absolute;
+  bottom: 0;
+  font-size: 60px;
+  color: white;
+}
+
+#prev {
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+
+#next {
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+#pagination {
+  background-color: #D1D1D1;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#pelos {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#pag {
+  background-color: gray;
+  border-color: gray;
 }
 
 h1 {
@@ -43,7 +77,33 @@ h1 {
   }
 }
 
-h3 {
+h5 {
+  color: #E56353;
+  font-family: "Roboto";
+}
+
+#robo {
+  line-height: 55px;
+  font-family: "Roboto";
+}
+
+#robo2 {
+  line-height: 40px;
+}
+@media (max-width: 700px) and (min-width: 300px) {
+  #robo2 {
+    display: none;
+  }
+}
+
+#date {
+  color: #D1D1D1;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+#sp {
+  color: #E56353;
   font-family: "Roboto";
 }
 
@@ -59,11 +119,12 @@ h3 {
 
 #img_b {
   background-image: url("../../assets/images/post-image.jpg");
-  height: 100vh;
+  height: calc(100vh - 79px);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
+  position: relative;
 }
 
 #footer {
@@ -71,6 +132,39 @@ h3 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+}
+
+#ico {
+  position: absolute;
+  bottom: 0;
+  font-size: 60px;
+  color: white;
+}
+
+#prev {
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+
+#next {
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+#pagination {
+  background-color: #D1D1D1;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#pelos {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#pag {
+  background-color: gray;
+  border-color: gray;
 }
 
 article .container {

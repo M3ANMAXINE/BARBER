@@ -2,20 +2,22 @@
 
  @mixin img_back {
     background-image: url("../../assets/images/post-image.jpg");
-    height:100vh;
+    height:calc(100vh - 79px);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     background-position: center;
+    position: relative;
     }
 
 @mixin foot{
 background-color: $color_primario;
 }
-
-         
+     
  @mixin cont($propiedad,$valor) { 
    .container{
       #{$propiedad}: $valor;
-      }
-};
+      }};
+
+
+
