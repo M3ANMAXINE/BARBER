@@ -3,6 +3,7 @@
 
 #nav{
     background-color:#121619;
+    
     a{
       text-align: right;     
     }
@@ -27,8 +28,8 @@
       font-size: 60px;
       color: white;
     }
-    
-
+  
+  
     #prev{
       border-top-left-radius: 90px;
       border-bottom-left-radius: 90px;
@@ -49,4 +50,12 @@
 padding-top: 3rem;
 padding-bottom: 5rem;
   }
+
+
+  #pag{
+    background-color: gray;
+    border-color: gray;
+  }
+
+ 
 

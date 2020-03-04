@@ -53,8 +53,9 @@
   padding-bottom: 5rem;
 }
 
-#naomi .img-fluid {
-  border-radius: 50%;
+#pag {
+  background-color: gray;
+  border-color: gray;
 }
 
 h1 {
@@ -76,7 +77,33 @@ h1 {
   }
 }
 
-h3 {
+h5 {
+  color: #E56353;
+  font-family: "Roboto";
+}
+
+#robo {
+  line-height: 55px;
+  font-family: "Roboto";
+}
+
+#robo2 {
+  line-height: 40px;
+}
+@media (max-width: 700px) and (min-width: 300px) {
+  #robo2 {
+    display: none;
+  }
+}
+
+#date {
+  color: #D1D1D1;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+#sp {
+  color: #E56353;
   font-family: "Roboto";
 }
 
@@ -135,8 +162,9 @@ h3 {
   padding-bottom: 5rem;
 }
 
-#naomi .img-fluid {
-  border-radius: 50%;
+#pag {
+  background-color: gray;
+  border-color: gray;
 }
 
 article .container {
